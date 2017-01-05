@@ -16,11 +16,7 @@ namespace CrashCourse_DWD273
             bool booleanTest = true;
             char charTest = 'A';
             string stringTest = "This is a String.";
-            Console.WriteLine("intTest = " + intTest);
-            Console.WriteLine("doubleTest = " + doubleTest);
-            Console.WriteLine("booleanTest = " + booleanTest);
-            Console.WriteLine("charTest = " + charTest);
-            Console.WriteLine("stringTest = " + stringTest);
+            Console.WriteLine("intTest = " + intTest + "\ndoubleTest = " + doubleTest + "\nbooleanTest = " + booleanTest + "\ncharTest = " + charTest + "\nstringTest = " + stringTest);
             Console.Read();
         }
     }
