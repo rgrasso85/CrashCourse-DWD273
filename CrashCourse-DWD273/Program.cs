@@ -10,6 +10,7 @@ namespace CrashCourse_DWD273
     {
         static void Main(string[] args)
         {
+            /*
             Console.WriteLine("Hello, World!");
             int intTest = 1;
             double doubleTest = 1.1;
@@ -17,7 +18,8 @@ namespace CrashCourse_DWD273
             char charTest = 'A';
             string stringTest = "This is a String.";
             Console.WriteLine("intTest = " + intTest + "\ndoubleTest = " + doubleTest + "\nbooleanTest = " + booleanTest + "\ncharTest = " + charTest + "\nstringTest = " + stringTest);
-
+            */
+            /*
             Random random = new Random();
             string userInput = "";
             int userNumber;
@@ -37,7 +39,26 @@ namespace CrashCourse_DWD273
                         Console.WriteLine("You Guessed Incorrectly! The Computers Number was " +computerNumber+ ". YOU LOSE!");
                     }
                 }
-            } while (userInput != "E");
+            } while (userInput != "E");*/
+
+            for (int i = 1; i <= 100; i++) {
+
+                if (i % 3 == 0)
+                {
+                    if (i % 15 == 0)
+                        {
+                            Console.WriteLine("Fizz Buzz");
+                    }else
+                    {
+                        Console.WriteLine("Fizz");
+                    }
+                }
+                else if (i % 5 == 0)
+                {
+                    Console.WriteLine("Buzz");
+                }else Console.WriteLine(i);
+            }
+            Console.Read();
         }
     }
 }
