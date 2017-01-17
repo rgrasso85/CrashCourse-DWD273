@@ -89,32 +89,37 @@ namespace CrashCourse_DWD273
                 Console.WriteLine(description);
             }*/
 
-            List<Cat> cats = new List<Cat>();
-            cats.Add(new Cat(2, "Kitty"));
-            cats.Add(new Cat(5, "Fluffy"));
-            cats.Add(new Cat(1, "Jack"));
-            cats.Add(new Cat(3, "Bubba"));
-            cats.Add(new Cat(4, "Shadow"));
+            /*List<Cat> cats = new List<Cat>();
+             cats.Add(new Cat(2, "Kitty"));
+             cats.Add(new Cat(5, "Fluffy"));
+             cats.Add(new Cat(1, "Jack"));
+             cats.Add(new Cat(3, "Bubba"));
+             cats.Add(new Cat(4, "Shadow"));
 
-            foreach (Cat cat in cats)
-            {
-                string description = cat.Describe();
-                Console.WriteLine(description);
-            }
+             foreach (Cat cat in cats)
+             {
+                 string description = cat.Describe();
+                 Console.WriteLine(description);
+             }
 
-            List<Dog> dogs = new List<Dog>();
-            dogs.Add(new Dog(5, "Doge"));
-            dogs.Add(new Dog(2, "Gunnar"));
-            dogs.Add(new Dog(1, "Ace"));
-            dogs.Add(new Dog(3, "Sassy"));
-            dogs.Add(new Dog(4, "Lacy"));
+             List<Dog> dogs = new List<Dog>();
+             dogs.Add(new Dog(5, "Doge"));
+             dogs.Add(new Dog(2, "Gunnar"));
+             dogs.Add(new Dog(1, "Ace"));
+             dogs.Add(new Dog(3, "Sassy"));
+             dogs.Add(new Dog(4, "Lacy"));
 
-            foreach (Dog dog in dogs)
-            {
-                string description = dog.Describe();
-                Console.WriteLine(description);
-            }
+             foreach (Dog dog in dogs)
+             {
+                 string description = dog.Describe();
+                 Console.WriteLine(description);
+             }*/
 
+            var cat = new Cat();
+            var dog = new Dog();
+            List<Animal> animals = new List<Animal>();
+            animals.Add(cat);
+            animals.Add(dog);
             Console.Read();
 
 

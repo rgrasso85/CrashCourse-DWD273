@@ -6,32 +6,16 @@ using System.Threading.Tasks;
 
 namespace CrashCourse_DWD273
 {
-    public class Cat
+    public class Cat : Animal
     {
-        // Attributes / Properties
-        public int Age { get; set; }
-        public string Name { get; set; }
-        // Constructor
-        public Cat(int age, string name)
-        {
-            this.Age = age;
-            this.Name = name; 
-        }
-        // Methods
 
-        public string Walk()
-        {
-            return "Walking...";
-        }
-
-        public string MakeNoise()
+        public override string MakeNoise()
         {
             return "Meow!";
         }
-
-        public string Describe()
+        public override string Describe()
         {
-            return "This cats name is " + this.Name + " and it is " + this.Age + " year(s) old!";
+            return "This cats name is " + Name + " and it is " + Age + " year(s) old!";
         }
     }
 }
